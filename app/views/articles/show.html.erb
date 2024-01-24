@@ -1,6 +1,12 @@
 <h1><%= @article.title %>
 <p><%= @article.body %></p>
+<%= pp @article.id %>
+
+<a href="/articles/<%= @article.id %>/edit">
+  edit
+</a>
 
 <a href="/">
   return
 </a>
+
